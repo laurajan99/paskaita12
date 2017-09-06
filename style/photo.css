@@ -1,0 +1,810 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.landing-page{
+    height: 90vh;
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 20px;
+    background-image: url(img/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    height: 86px;
+    margin: 10px auto;
+    width: 100%;
+}
+
+
+.boxlist1{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+}
+.boxlist2{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: -35px;
+    
+}
+.boxlist3{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    float: right;
+    
+}
+
+
+.boxlist1 li a{
+    display: inline-block;
+    margin-left: 10px;
+    float: left; 
+    font-size: 20px;
+}
+
+.boxlist2 h1{
+    font-size: 35px;
+    margin-top: 10px;
+    color: white;
+    font-family: fantasy;
+    
+}
+
+
+.boxlist3 button{
+    border-radius: 20px;
+    width: 200px;
+    background-color: rgba(255,255,255, 0.9);
+    vertical-align: top;
+    
+}
+header button p{
+    color: dimgrey;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.fa-search{
+    font-size: 20px;
+    color: dimgrey;
+    display: inline-block;
+}
+
+.landing-page a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.landing-page h2{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 50px;
+}
+.landing-page .box1 {
+    width: 180px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: #51cd51;
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 43%;
+    padding: 30px;        
+}
+.landing-page tab {
+    width: 170px;
+    height: 23px;
+    font-size: 17px;
+    background-color:rgba(255,255,255, 0.9);
+    border-radius: 20px;
+    margin-top: 410px;
+    margin-left: 45%;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.landing-page tab p{
+    color: dimgray;
+    display: inline-block;
+}
+.landing-page tab .fa-arrow-down{
+    color: dimgray;
+    margin-right: 5px;
+}
+
+/****landing-page2****/
+
+.landing-page2{
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 20px;
+    
+}
+.landing-page2 h2{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: dimgray;
+}
+.landing-page2 hr{
+    width: 60px;
+    border: 1px solid grey;
+}
+.landing-page2 h3{
+    font-family: sans-serif;
+    font-size: 23px;
+    color: dimgray;
+    margin-top: 20px;
+}
+.landing-page2 h4{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: dimgray;
+    margin-top: 7px;
+}
+.landing-page2 .wrapper{
+    width: 100%;
+    
+}
+.landing-page2 .box1{
+    width: 35%;
+    height: 100px;
+    display: inline-block;
+    margin-right: 150px;
+    margin-left: 32%;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #E0F8E6;
+    vertical-align: top;
+    
+}
+.wrapper .box{
+    margin-right: 20px;
+}
+.box1 img{
+    width: 90px;
+    height: 80px;
+    margin: auto;
+    margin-top: 7px;
+    color: #64bc52;
+}
+.landing-page2 .box2{
+    width: 35%;
+    height: 100px;
+    display: inline-block;
+    margin-right: 150px;
+    margin-left: 32%;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #E0F8E6;
+    vertical-align: top;
+}
+.box2 img{
+   width: 90px;
+   height: 80px; 
+   margin-top: 7px;
+   color: #64bc52;
+   
+}
+.landing-page2 .box3{
+    width: 35%;
+    height: 100px;
+    display: inline-block;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #E0F8E6;
+    vertical-align: top;
+}
+.box3 img{
+    width: 90px;
+    height: 80px;
+    margin-top: 7px;
+    color: #54d154;
+}
+.wrapper .box{
+    width: 25%;
+    display: inline-block;
+}
+.box p{
+    font-size: 27px;
+    color: dimgray;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 800; 
+}
+.boxp1 {
+    font-size: 27px;
+    color: dimgray;
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+.boxp1 button{
+    display: block;
+    width: 130px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #54d154;
+    margin: 20px auto; 
+    color: white;
+}
+/*landing-page3*/
+
+.landing-page3{
+    width: 90%;
+    height: 90vh;
+    background-color: #54d154;
+    margin: 10px auto;
+    margin-top: 20px;
+}
+
+.landing-page3 h2{
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: dimgray;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+.landing-page3 hr{
+    width: 60px;
+    border: 1px solid grey;
+}
+.landing-page3 h3{
+    font-family: sans-serif;
+    font-size: 23px;
+    color: dimgray;
+    margin-top: 20px;
+}
+
+.landing-page3 .box{
+    width: 500px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.landing-page3 .box .wrapper{
+    padding-top: 20px;
+    width: 400px;
+    margin: auto;
+    font-size: 0;
+}
+
+.landing-page3 .box .wrapper button1{
+    width: 100px;
+    height: 150px;
+    color: white;
+    padding: 10px;
+    background-color: #2b9b2b;
+    font-size: 20px;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.landing-page3 .box .wrapper button2{
+    width: 100px;
+    height: 70px;
+    color: white;
+    padding: 10px;
+    background-color: white;
+    color: #2b9b2b;
+    font-size: 20px;
+    margin-top: 20px;
+    border-right: 1px solid #2b9b2b;
+    
+    
+}
+.landing-page3 .box .wrapper button3{
+    width: 100px;
+    height: 70px;
+    color: white;
+    padding: 10px;
+    background-color: white;
+    color: #2b9b2b;
+    font-size: 20px;
+    margin-top: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.boxx{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.boxx img{
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    
+}
+.more{
+    width: 15%;
+    height: 30px;
+    color: white;
+    background-color: #2b9b2b;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.more p{
+    font-size: 20px;
+    padding: 5px;
+    display: inline-block;  
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+/*landing-page4*/
+
+.landing-page4{
+    width: 90%;
+    height: 30vh;
+    background-color: #ffffff;
+    margin: 10px auto;
+    margin-top: 20px;
+}
+.landing-page4 h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:inherit;
+    font-style:normal;
+    letter-spacing: 5px;
+    
+}
+.landing-page4 h3{
+    font-size: 16px;
+    color: lightgray;
+}
+.landing-page4 p{
+    font-size: 16px;
+    color: #8f8f8f;
+    margin-top: 35px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: 500;
+    line-height: 20px;
+    
+}
+.arrow{
+    font-size: 32px;
+    color: lightgrey;
+}
+.arrow .fa-angle-left{
+    float: left;
+    margin-left: 150px;
+}
+.arrow .fa-angle-right{
+    float: right;
+    margin-right: 150px;
+}
+.landing-page4 .herp{
+    width: 25%;
+    height: auto;
+    margin: auto;
+    margin-top:40px;
+}
+.landing-page4 .box-left{
+    width: 40%;
+/*    border: 2px solid green;*/
+    float: left;
+    display: inline-block;
+}
+.landing-page4 .box-right{
+    width: 45%;
+/*    border: 2px solid blue;*/
+    float: right;
+    display: inline-block;
+}
+.landing-page4 .box-left img{
+    margin-left: 20px;
+    width: 30%;
+    font-size: 0;
+}
+.landing-page4 .box-right h1{
+    color: black;
+    margin-left: -250px;
+    display: block;
+    line-height: 20px;
+    
+}
+.landing-page4 .box-right h5{
+    margin-left: 10px;
+    color: gray;
+    text-align: justify;
+    margin-left: -78px;
+    line-height: 20px;
+
+}
+
+/*our happy client */
+
+.landing-page5{
+    width: 100%;
+    background-color: #f2f1f1;
+    margin: 10px auto;
+    margin-top: 20px;
+    
+}
+.landing-page5 h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:inherit;
+    font-style:normal;
+    letter-spacing: 5px;
+    
+}
+.landing-page5 h3{
+    font-size: 16px;
+    color: lightgray;
+}
+.logo img{
+    margin-right: 130px;
+    vertical-align:middle;
+}
+.logo{
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+.landing-page5 button{
+    width: 15%;
+    height: 30px;
+    color: darkgrey;
+    background-color: #dddcdc;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+/*landing-page6*/
+
+.landing-page6{
+    width: 100%;
+    height: 55vh;
+    background-color: #54d154;
+    margin-top: -40px;;
+    
+}
+.landing-page6 h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:inherit;
+    font-style:normal;
+    letter-spacing: 5px;
+    
+}
+.landing-page6 h3{
+    font-size: 16px;
+    color: lightgray;
+}
+.landing-page6 img{
+    margin-top: 60px;
+    margin-right: 45px;
+    
+}
+.landing-page6 .vr{
+    margin-left: 285px;
+}
+
+.landing-page6 .vr img{
+    margin-top: 0;
+    float: left;
+    margin-left: 100px;
+    margin-right: 73px;
+}
+
+.container{
+    margin-top: 70px;
+}
+
+.container .full-box{
+    display: inline-block;
+    margin-left: 60px;
+    
+}
+.full-box img{
+    margin: auto;
+    display: block;
+    color: black;
+    margin-bottom: 10px;
+}
+.full-box p{
+    color: white;
+    font-size: 16px;
+}
+.full-box button{
+    width: 120px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #c5e9c5;
+    
+}
+.full-box button img{
+    display: inline-block;
+    margin: auto;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+.landing-page61{
+    width: 100%;
+    height: 15vh;
+    margin-top: 40px;
+    background-color: #3eba3e;
+}
+.landing-page61 button{
+    color: white;
+    background-color: #54d154;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/*landing-page7*/
+
+.landing-page7{
+    width: 100%;
+    height: 60vh;
+    background-color: #333333;
+    margin-top: -40px;
+}
+.landing-page7 h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:inherit;
+    font-style:normal;
+    letter-spacing: 5px;
+    color: #dddddd;
+    
+}
+.landing-page7 hr{
+    font-size: 16px;
+    color: red;
+/*    neveikia spalva*/
+}
+.landing-page7 .container p{
+    color: #cccccc;
+    text-align: justify;
+    padding: 20px;
+    margin-right: 5px;
+    font-size: 19px;
+}
+
+.landing-page7 .container{
+    width: 90%;
+    display: inline-block;
+    margin-top: 0;
+}
+.landing-page7 .box1{
+    display: inline-block;
+    margin-right: 20px;
+    width: 30%;
+    vertical-align: top;
+    
+}
+.landing-page7 .box2{
+    display: inline-block;
+    margin-right: 20px;
+    width: 30%;
+}
+.landing-page7 .box3{
+    display: inline-block;
+    margin-right: 20px;
+    width: 30%;
+    vertical-align: top;
+}
+.landing-page7 h2{
+    margin-top: 0px;
+}
+
+.landing-page7 .box1 button{
+    width: 120px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #e6e7e6; 
+}
+.landing-page7 .box1 button img{
+    display: inline-block;
+    margin: auto;
+    margin-right: 3px;
+    margin-top: 3px;
+    width: 20px;
+    height: 20px;
+}
+/*box2*/
+
+.landing-page7 .box2 box-left img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+}
+.landing-page7 .box2 box-left{
+    width: 10%;
+    height: 10%;
+    display: block;
+    vertical-align: top;
+    position: relative;
+    margin-left: 10px;
+}
+.landing-page7 .box2 box-right{
+    width: 80%;
+    float: right;
+}
+.landing-page7 .box2 box-right boxgreen{
+    color: white;
+    background-color: #54d154;
+    border-radius: 10%;
+    padding: 7px;
+}
+.landing-page7 .box2 box-right boxred{
+    color: white;
+    background-color: #ff6600;
+    border-radius: 10%;
+    padding: 7px;
+}
+.landing-page7 .box2 box-right boxyellow{
+    color: white;
+    background-color: #089dea;
+    border-radius: 10%;
+    padding: 7px;
+}
+.landing-page7 .box2 box-right boxblue{
+    color: white;
+    background-color: #089dea;
+    border-radius: 10%;
+    padding: 7px;
+}
+.landing-page7 .box2 box-right boxyellow{
+    color: white;
+    background-color: #ffba00;
+    border-radius: 10%;
+    padding: 7px;
+}
+
+.landing-page7 .box2 box-right{
+    margin-top: -60px;
+    text-align: left;
+}
+
+.landing-page7 .box2 box-right h3{
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-family: inherit;
+    color: #cccccc;
+}
+/*box3*/
+.landing-page7 .box3 h5{
+    font-size: 16px;
+     color:  #cccccc;
+    text-align: center;
+}
+.landing-page7 .box3 .container input{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 90%;
+    padding: 5px;
+    background-color: #444444;
+    font-size: 14px;
+    border: 1px solid white;
+}
+.landing-page7 .box3 .container2 textarea{
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 90%;
+    height: 20%;
+    padding: 10px;
+    background-color: #444444;
+    font-size: 14px;
+    border: 1px solid white;
+    color: white;
+    top: 0;
+    
+}
+.landing-page7 .box3 .container2{
+    margin-right: 38px;
+}
+
+
+.landing-page7 .box3 button{
+    width: 82%;
+    height: 5%;
+    background-color: #2b9b2b;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    border: 1px solid white;
+}
+.landing-page7 .box3 button a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px; 
+}
+.landing-page8{
+    background-color: #222222;
+    margin-top: -40px;
+    height: 30vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
